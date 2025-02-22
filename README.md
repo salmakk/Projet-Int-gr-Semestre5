@@ -35,7 +35,6 @@ Avant de commencer l'installation, assure-toi d'avoir les éléments suivants co
 - **Python 3.x** : Télécharge et installe depuis [python.org](https://www.python.org/downloads/).
 - **MongoDB** : Assure-toi que MongoDB est installé et en service sur `mongodb://localhost:27017`. Si nécessaire, tu peux installer MongoDB depuis [mongodb.com](https://www.mongodb.com/try/download/community).
 - **VMware vSphere** : Un accès à un serveur VMware vSphere, notamment les services **vCenter** et **ESXi**.
-- **Node.js** : Télécharge et installe la dernière version de Node.js depuis [nodejs.org](https://nodejs.org/).
 
 ### Étapes d'installation
 
