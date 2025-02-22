@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My VMs</title>
+    <link rel="stylesheet" href="/static/css/style2.css">
+</head>
+<body>
+    <header>
+        {% if session['user'] %}
+            <h1>Bienvenue, {{ session['nameus'] }}!</h1>
+            <a href="{{ url_for('logout') }}">Déconnexion</a>
+        {% else %}
+            <a href="{{ url_for('login') }}">Connexion</a>
+        {% endif %}
+    </header>
+    <div class="container">
+        <h1>My Virtual Machines</h1>
+        <form action="/connect" method="post">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Select</th>
+                        <th>VM Name</th>
+                        <th>IP Address</th>
+                        <th>Creation Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for vm in user_vms %}
+                    <tr>
+                        <td><input type="radio" name="vm_id" value="{{ vm['_id'] }}"></td>
+                        <td>{{ vm['name'] }}</td>
+                        <td>{{ vm['ip_address'] }}</td>
+                        <td>{{ vm['creation_date'] }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <div class="button-container">
+                <button type="submit">Se connecter</button>
+            </div>
+        </form>
+    </div>
+    <a href="/createvm">Créer une nouvelle vm</a>
+</body>
+</html>

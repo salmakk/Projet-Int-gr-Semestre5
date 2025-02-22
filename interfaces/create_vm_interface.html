@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Templates List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Available Templates</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Template Name</th>
+                <th>CPU</th>
+                <th>RAM (GB)</th>
+                <th>Storage (GB)</th>
+                <th>OS</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for template in templates %}
+            <tr>
+                <td>{{ template['template_name'] }}</td>
+                <td>{{ template.cpu }}</td>
+                <td>{{ template.ram }}</td>
+                <td>{{ template.storage }}</td>
+                <td>{{ template.os }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <br>
+    <a href="/dashboard">Back to Dashboard</a>
+</body>
+</html>

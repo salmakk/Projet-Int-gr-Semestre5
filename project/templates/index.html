@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VM Templates</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>VM Templates</h1>
+        <form action="/create" method="post">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Select</th>
+                        <th>Template Name</th>
+                        <th>CPU</th>
+                        <th>RAM</th>
+                        <th>Storage</th>
+                        <th>Operating System</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for vm in vms %}
+                    <tr>
+                        <td><input type="radio" name="template_id" value="{{ vm['_id'] }}"></td>
+                        <td>{{ vm['template_name'] }}</td>
+                        <td>{{ vm['cpu'] }}</td>
+                        <td>{{ vm['ram'] }}</td>
+                        <td>{{ vm['storage'] }}</td>
+                        <td>{{ vm['os'] }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <div class="button-container">
+                <button type="submit">Créer</button>
+            </div>
+        </form>
+    </div>
+    <a href="/vms">Voir mes VMs</a>
+
+</body>
+</html>
