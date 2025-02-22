@@ -3,19 +3,17 @@ Description du projet
 Ce projet vise à automatiser le provisionnement et la gestion des machines virtuelles (VMs) en utilisant VMware vSphere. Grâce à une interface utilisateur simple, les utilisateurs peuvent s'authentifier, sélectionner des modèles de VM et suivre le statut du provisionnement.
 
 Technologies utilisées
-Frontend : HTML, CSS, JavaScript <img src="![image](https://github.com/user-attachments/assets/39fbe63e-ed2f-4544-ae62-e80712f9892b)" alt="Schéma d'architecture" width="100">
-Backend : Python (Flask)
-![image](https://github.com/user-attachments/assets/0335d262-65c4-4abf-bd7f-110423af471b)
-Base de données : MongoDB
-![image](https://github.com/user-attachments/assets/ab33fca2-e3ba-477a-9de5-2f3661792e3d)
-Virtualisation : VMware vSphere (vCenter, ESXi)
-![image](https://github.com/user-attachments/assets/ad774925-c8eb-4391-813a-6fad6bcd260e)
+Frontend : HTML, CSS, JavaScript <img src="![image](https://github.com/user-attachments/assets/39fbe63e-ed2f-4544-ae62-e80712f9892b)" width="50">
+Backend : Python (Flask) <img src="![image](https://github.com/user-attachments/assets/39fbe63e-ed2f-4544-ae62-e80712f9892b)" width="50">
+Base de données : MongoDB <img src="![image](https://github.com/user-attachments/assets/39fbe63e-ed2f-4544-ae62-e80712f9892b)" width="50">
+Virtualisation : VMware vSphere (vCenter, ESXi) <img src="![image](https://github.com/user-attachments/assets/39fbe63e-ed2f-4544-ae62-e80712f9892b)" width="50">
 1️⃣ Architecture du Projet
 📌 Diagramme de l’architecture globale
-![image](https://github.com/user-attachments/assets/b9a5351a-dc57-40a7-ad51-4a0c08f39552)
+<img src="![image](https://github.com/user-attachments/assets/39fbe63e-ed2f-4544-ae62-e80712f9892b)" width="50">
 2️⃣ Interaction Frontend-Backend
 📌 Schéma d’interaction
-![image](https://github.com/user-attachments/assets/d3008347-9ef0-4211-b231-7154091bd95a)
+<img src="![image](https://github.com/user-attachments/assets/cc53d10e-1808-48fc-be52-cdb0a24a7f09)
+" width="50">
 3️⃣ Installation et Configuration
 📌 Prérequis
 Avant de commencer, assure-toi d'avoir :
