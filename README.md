@@ -47,7 +47,6 @@ Le backend est développé en Python avec Flask. Pour lancer l'application :
 1. Clone le dépôt du projet :
    ```bash
    git clone https://github.com/salmakk/Projet-Int-gr-Semestre5.git
-   cd projet-automatisation-vm/backend
 2. Lance le serveur Flask :
    ```bash
    python app.py
