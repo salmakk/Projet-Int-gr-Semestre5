@@ -72,5 +72,6 @@ Les contributions sont les bienvenues ! Si tu souhaites proposer une modificatio
    ```bash
    git push origin feature/ma-fonctionnalité
    
-:) :) :)
+Merci de contribuer à ce projet ! 🚀
+^_^
 
