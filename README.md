@@ -3,17 +3,16 @@ Description du projet
 Ce projet vise à automatiser le provisionnement et la gestion des machines virtuelles (VMs) en utilisant VMware vSphere. Grâce à une interface utilisateur simple, les utilisateurs peuvent s'authentifier, sélectionner des modèles de VM et suivre le statut du provisionnement.
 
 Technologies utilisées
-Frontend : HTML, CSS, JavaScript <img src="![image](https://github.com/user-attachments/assets/39fbe63e-ed2f-4544-ae62-e80712f9892b)" width="300">
-Backend : Python (Flask) <img src="![image](https://github.com/user-attachments/assets/39fbe63e-ed2f-4544-ae62-e80712f9892b)" width="50">
-Base de données : MongoDB <img src="![image](https://github.com/user-attachments/assets/39fbe63e-ed2f-4544-ae62-e80712f9892b)" width="50">
-Virtualisation : VMware vSphere (vCenter, ESXi) <img src="![image](https://github.com/user-attachments/assets/39fbe63e-ed2f-4544-ae62-e80712f9892b)" width="50">
+Frontend : HTML, CSS, JavaScript
+Backend : Python (Flask) 
+Base de données : MongoDB 
+Virtualisation : VMware vSphere (vCenter, ESXi)
 1️⃣ Architecture du Projet
 📌 Diagramme de l’architecture globale
-<img src="![image](https://github.com/user-attachments/assets/39fbe63e-ed2f-4544-ae62-e80712f9892b)" width="50">
+![image](https://github.com/user-attachments/assets/a6e79a18-c7dd-49ed-b2d1-ac120c3a2020)
 2️⃣ Interaction Frontend-Backend
 📌 Schéma d’interaction
-<img src="![image](https://github.com/user-attachments/assets/cc53d10e-1808-48fc-be52-cdb0a24a7f09)
-" width="50">
+![Capture d'écran 2025-02-22 132106](https://github.com/user-attachments/assets/63d4c7f4-959d-4f9e-b45e-92ffca51b330)
 3️⃣ Installation et Configuration
 📌 Prérequis
 Avant de commencer, assure-toi d'avoir :
