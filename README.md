@@ -3,7 +3,7 @@ Description du projet
 Ce projet vise à automatiser le provisionnement et la gestion des machines virtuelles (VMs) en utilisant VMware vSphere. Grâce à une interface utilisateur simple, les utilisateurs peuvent s'authentifier, sélectionner des modèles de VM et suivre le statut du provisionnement.
 
 Technologies utilisées
-Frontend : HTML, CSS, JavaScript <img src="![image](https://github.com/user-attachments/assets/39fbe63e-ed2f-4544-ae62-e80712f9892b)" alt="Schéma d'architecture" width="300">
+Frontend : HTML, CSS, JavaScript <img src="![image](https://github.com/user-attachments/assets/39fbe63e-ed2f-4544-ae62-e80712f9892b)" alt="Schéma d'architecture" width="100">
 Backend : Python (Flask)
 ![image](https://github.com/user-attachments/assets/0335d262-65c4-4abf-bd7f-110423af471b)
 Base de données : MongoDB
